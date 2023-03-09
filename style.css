@@ -1,3 +1,10 @@
 h1 {
     color: brown;
 }
+
+.minha-classe {
+    display: inline-block;
+    padding: 30px;
+    border: solid 3px black;
+    margin: 30px;
+}
