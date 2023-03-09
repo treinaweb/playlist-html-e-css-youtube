@@ -6,15 +6,22 @@
     <body>
         <h1>TreinaWeb</h1>
         <p>Escola online para desenvolvedores</p>
-
+        
         <p class="minha-classe">Box Model</p>
-    
-        <ul>
+
+        <ul class="lista-nao-ordenada">
             <li>Item 1</li>
             <li>Item 2</li>
             <li>Item 3</li>
             <li>Item 4</li>
         </ul>
+
+        <ol class="lista-ordenada">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ol>
 
         <h2>Titulo 2</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse amet iure voluptatibus accusamus provident aliquam explicabo adipisci architecto, ratione sint vel similique earum obcaecati consequatur, quisquam porro id nemo eius.</p>
@@ -23,5 +30,52 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse amet iure voluptatibus accusamus provident aliquam
             explicabo adipisci architecto, ratione sint vel similique earum obcaecati consequatur, quisquam porro id nemo eius.
         </p>
+
+        <h2>Tabelas</h2>
+
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Tecnologia</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>Amauri</td>
+                    <td>32</td>
+                    <td>Front-end</td>
+                </tr>
+                <tr>
+                    <td>Elton</td>
+                    <td>40</td>
+                    <td>Back-end</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Formulários</h2>
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+            <br>
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone">
+            <br>
+            <label for="email">Digite seu E-mail</label>
+            <input type="email" id="email">
+            <br>
+            <Label for="tec">tecnologia</Label>
+            <input type="checkbox" id="tec">
+            <br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Apagar</button>
+        </form>
+
+
+        <div class="m-bottom"></div>
     </body>
 </html>
