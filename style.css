@@ -20,13 +20,10 @@ h1 {
 
 .tabela {
     width: 400px;
+    margin-bottom: 500px;
 }
 
 .tabela, tr, th, td {
     border: solid 1px black;
     border-collapse: collapse;
-}
-
-.m-bottom {
-    margin-bottom: 500px;
 }
