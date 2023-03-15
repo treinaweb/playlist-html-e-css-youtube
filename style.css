@@ -37,7 +37,7 @@ h1 {
 
 .relative {
     height: 50px;
-    width: 50px;
+    width: 600px;
     background-color: rgb(30, 163, 43);
     border: solid 1px black;
     position: relative;
@@ -55,10 +55,40 @@ h1 {
     right: 0;
 }
 
-
-
-
-
 .m-bottom {
     margin-bottom: 500px;
+}
+
+@media( max-width: 1400px ) {}
+
+@media( max-width: 1200px ) {
+    body {
+        background-color: rgb(169, 35, 35);
+    }
+}
+
+@media( max-width: 992px ) {
+    body {
+        background-color: rgb(53, 172, 81);
+    }
+}
+
+@media( max-width: 768px ) {
+    body {
+        background-color: rgb(239, 229, 38);
+    }
+
+    .relative {
+        width: 500px;
+    }
+}
+
+@media( max-width: 576px ) {
+    body {
+        background-color: rgb(27, 221, 204);
+    }
+
+    .relative {
+        width: 300px;
+    }
 }
