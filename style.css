@@ -1,6 +1,22 @@
-h1 {
-    color: brown;
+/* 
+Inicio Section
+*/
+.titulo-pagina {
+    color: brown; 
     font-size: 68px;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+.btn-azul {
+    background-color: blue;
+}
+
+.btn-red {
+    background-color: red;
 }
 
 .minha-classe {
@@ -13,6 +29,8 @@ h1 {
 .lista-nao-ordenada {
     list-style: url("img/arrow.svg");
 }
+
+/* Fim section */
 
 .lista-ordenada {
     list-style: lower-greek;
